@@ -62,3 +62,14 @@
     cursor: pointer;
     transition: background-color 0.2s;
 }
+@media (max-width: 768px) {
+    .container {
+        padding: 100px 15px 30px 15px;
+    }
+    
+    .product-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        padding: 15px 5px;
+    }
+}
